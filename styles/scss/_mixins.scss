@@ -1,0 +1,18 @@
+@mixin flex($display, $direction, $gap) {
+    display: $display;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin border($radius, $width, $color, $style) {
+    border-radius: $radius;
+    border-width: $width;
+    border-color: $color;
+    border-style: $style;
+}
+
+@mixin shadow {
+    box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.27);
+}

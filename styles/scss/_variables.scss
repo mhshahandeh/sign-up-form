@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../fonts/Vazir-Regular.eot");
+    src: url("../../fonts/Vazir-Regular.ttf") format("ttf"),
+         url("../../fonts/Vazir-Regular.woff") format("woff"),
+         url("../../fonts/Vazir-Regular.woff2") format("woff2"),
+}
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../../fonts/Vazir-Bold.eot");
+    src: url("../../fonts/Vazir-Bold.ttf") format("ttf"),
+         url("../../fonts/Vazir-Bold.woff") format("woff"),
+         url("../../fonts/Vazir-Bold.woff2") format("woff2"),
+}
+
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$blue: hsl(248, 32%, 49%);
+$darkBlue: hsl(249, 10%, 26%);
+$grayishBlue: hsl(246, 25%, 77%);
+$white: #fff;
+$primary-font:  vazir;

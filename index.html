@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>فرم ثبت نام</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+</head>
+<body>
+    <main class="main-container">
+        <section class="info-section">
+            <h1>با تماشای دیگران کدنویسی را یاد بگیرید</h1>
+            <p>ببینید که چگونه توسعه دهندگان با تجربه مشکلات را در زمان واقعی حل می کنند. تماشای آموزش های اسکریپت عالی است،
+                اما درک اینکه توسعه دهندگان چگونه فکر می کنند بسیار ارزشمند است.</p>
+        </section>
+        <section class="form-section">
+            <button class="sales-btn">۷ روز رایگان <span>/ ماهی ۵۰ هزارتومن</span>
+            </button>
+
+            <form class="main-form">
+                <div class="input-field">
+                    <input class="first-name" id="first-name" type="text" placeholder="نام">
+                    <div class="first-name-error"></div>
+                    <label for="first-name" class="name-label"></label>
+                </div>
+                <div class="input-field">
+                    <input class="last-name" id="last-name" type="text" placeholder="نام خانوادگی">
+                    <div class="last-name-error"></div>
+                    <label for="last-name" class="lastname-label"></label>
+                </div>
+                <div class="input-field">
+                    <input class="user-email" id="user-email" type="email" placeholder="آدرس ایمیل">
+                    <div class="user-email-error"></div>
+                    <label for="user-email" class="email-label"></label>
+                </div>
+                <div class="input-field">
+                    <input class="user-pass" id="user-pass" type="password" placeholder="رمزعبور">
+                    <div class="user-pass-error"></div>
+                    <label for="user-pass" class="pass-label"></label>
+                </div>
+                <div class="input-field">
+                    <button class="submit-info" id="submit-info" type="submit">دریافت ۷ روز رایگان</button>
+                    <label for="submit-info" class="success-msg"></label>
+                </div>
+                <label class="tnc" for="submit-info">با کلیک بر روی دکمه، شما با <a href="#">شرایط و خدمات </a>ما موافقت می کنید</label>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
