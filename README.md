@@ -2,14 +2,13 @@
 پروژه **فرم ثبت نام** با اعتبار سنجی
 
 ## Screenshots
-
+![website screenshot](/images/website-screenshot.png)
 
 
 ## Technologies Used
 
-* HTML, CSS
+* HTML, SCSS
 * JavaScript vanila
-* Sass
 
 ## Installation and Setup Instructions
 
