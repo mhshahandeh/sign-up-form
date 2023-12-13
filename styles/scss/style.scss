@@ -14,7 +14,6 @@ body {
     overflow-y: scroll;
     box-sizing: border-box;
     min-height: 100vh;
-    min-width: fit-content;
     background-image: url("/images/bg-intro-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,6 +195,5 @@ input:focus-visible {
   @media screen and (max-width: 400px) {
     .main-container {
         width: 100%;
-        padding: 0 1.3rem;
       }
   }
